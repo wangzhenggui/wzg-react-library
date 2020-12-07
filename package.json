@@ -1,0 +1,29 @@
+{
+  "name": "wzg-react-library",
+  "version": "1.0.0",
+  "description": "my react library",
+  "main": "lib/bundle.js",
+  "keywords": ["react", "component"],
+  "scripts": {
+    "build": "yarn run rollup -c",
+    "start": "yarn run rollup -c -w"
+  },
+  "author": "wangzhenggui",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.1.14",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-nested": "^5.0.2",
+    "postcss-simple-vars": "^6.0.1",
+    "rollup": "^2.34.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-less-modules": "^0.1.11",
+    "rollup-plugin-postcss": "^4.0.0",
+    "styled-components": "^5.2.1"
+  },
+  "dependencies": {}
+}
